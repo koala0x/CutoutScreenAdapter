@@ -61,6 +61,6 @@ public class FullScreenActivity extends AppCompatActivity {
             }
         }
         // 模拟器上的一般是false,为了看效果返回true.
-        return true;
+        return false;
     }
 }
