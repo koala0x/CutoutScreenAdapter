@@ -16,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StateBarScreenActivity" />
-        <activity android:name=".FullScreenActivity" />
+        <activity android:name=".StateBarScreenActivity_9" />
+        <activity android:name=".StateBarScreenActivity_8" />
+        <activity android:name=".FullScreenActivity_9" />
+        <activity android:name=".FullScreenActivity_8" />
+        <activity android:name=".StateBarColorActivity" />
     </application>
 
 </manifest>

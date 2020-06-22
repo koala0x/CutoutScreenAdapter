@@ -10,7 +10,7 @@ import android.view.WindowManager;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class StateBarScreenActivity extends AppCompatActivity {
+public class StateBarScreenActivity_8 extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override

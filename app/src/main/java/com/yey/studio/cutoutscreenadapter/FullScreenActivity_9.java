@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FullScreenActivity extends AppCompatActivity {
+public class FullScreenActivity_9 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
