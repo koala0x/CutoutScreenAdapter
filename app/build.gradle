@@ -2,7 +2,15 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-
+    signingConfigs {
+        release {
+            storeFile file('../jk.jks')
+            storePassword '123qwe'
+            keyAlias = '123qwe'
+            keyPassword '123qwe'
+            v2SigningEnabled true
+        }
+    }
     defaultConfig {
         applicationId "com.yey.studio.cutoutscreenadapter"
         minSdkVersion 19
@@ -19,7 +27,14 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+
     }
 }
 

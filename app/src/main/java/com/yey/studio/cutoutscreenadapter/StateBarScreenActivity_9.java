@@ -30,6 +30,5 @@ public class StateBarScreenActivity_9 extends AppCompatActivity {
         int visibility = getWindow().getDecorView().getSystemUiVisibility();
         visibility |= flags;// 追加属性
         getWindow().getDecorView().setSystemUiVisibility(visibility);
-
     }
 }
